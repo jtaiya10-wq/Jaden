@@ -1,0 +1,134 @@
+
+
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f2;
+    margin: 0;
+    color: #26352d;
+}
+
+/* Header */
+header {
+    background-color: #123b2a;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    color: #d4e5d9;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #20583d;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4ca55;
+}
+
+/* Main container */
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2 {
+    color: #20583d;
+    border-bottom: 3px solid #d9b64c;
+    padding-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #20583d;
+    color: white;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #edf4ef;
+}
+
+/* Hobbies */
+.hobbies {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hobby {
+    flex: 1;
+    min-width: 150px;
+    background-color: #edf4ef;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 4px solid #d9b64c;
+}
+
+.hobby h3 {
+    color: #20583d;
+}
+
+/* Footer */
+footer {
+    background-color: #123b2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+}
